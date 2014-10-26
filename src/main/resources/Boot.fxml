@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="270.0" prefWidth="322.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neco_labo.jfx.BootController">
+    <children>
+      <TabPane prefHeight="284.0" prefWidth="330.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Untitled Tab 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="175.0" prefWidth="298.0">
+                     <children>
+                          <Button fx:id="button" layoutX="51.0" layoutY="48.0" onAction="#handleButtonAction" text="Click Me!" />
+                          <Label fx:id="label" layoutX="96.0" layoutY="138.0" minHeight="16" minWidth="69" prefHeight="74.0" prefWidth="182.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Untitled Tab 2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Box fx:id="box" depth="200.0" height="200.0" layoutX="165.0" layoutY="128.0" onMouseClicked="#bobobo" onMouseDragOver="#dododo" onMouseDragged="#dododo" rotate="124.2" width="200.0">
+                           <rotationAxis>
+                              <Point3D x="1.0" z="1.0" />
+                           </rotationAxis>
+                        </Box>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+    </children>
+</AnchorPane>
